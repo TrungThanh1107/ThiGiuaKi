@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính toán hình bình hành"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:textColor="#ED0707"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Nhập cạnh đáy:"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/editCanhday"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Nhập cạnh bên:"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/editCanhben"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Nhập chiều cao:"
+            android:textSize="25dp"
+            android:layout_marginLeft="20dp"/>
+
+        <EditText
+            android:id="@+id/editChieucao"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <Button
+        android:id="@+id/btnCV"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:text="Chu vi"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnDT"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:text="Diện tích"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Kết quả"
+        android:textAlignment="center"
+        android:id="@+id/tvketqua"
+        android:layout_marginTop="20dp"
+        android:background="#85779A9A"/>
+    </LinearLayout>
+
+</LinearLayout>
